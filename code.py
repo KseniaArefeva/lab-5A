@@ -72,13 +72,13 @@ def is_symmetric(root):
 
 def build_symmetric_tree():
     # Создаёт симметричное дерево:
-    root = TreeNode(10)
-    root.left = TreeNode(5)
-    root.right = TreeNode(15)
-    root.left.left = TreeNode(2)
-    root.left.right = TreeNode(7)
-    root.right.left = TreeNode(12)
-    root.right.right = TreeNode(20)
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(2)
+    root.left.left = TreeNode(3)
+    root.left.right = TreeNode(4)
+    root.right.left = TreeNode(4)
+    root.right.right = TreeNode(3)
     return root
 
 def build_asymmetric_tree():
@@ -89,17 +89,6 @@ def build_asymmetric_tree():
     root.left.left = TreeNode(3)
     root.left.right = TreeNode(4)
     root.right.right = TreeNode(3) 
-    return root
-
-def build_mirror_symmetric_tree():
-    # Зеркально-симметричное дерево (значения зеркальны):
-    root = TreeNode(1)
-    root.left = TreeNode(2)
-    root.right = TreeNode(2)
-    root.left.left = TreeNode(3)
-    root.left.right = TreeNode(4)
-    root.right.left = TreeNode(4)
-    root.right.right = TreeNode(3)
     return root
 
 def build_sample_tree():
@@ -146,11 +135,7 @@ def main():
     tree3 = build_asymmetric_tree()
     print_tree_structure("ДЕРЕВО 3 (несимметричное, нарушена зеркальность)", tree3)
     
-    # 4. Зеркально-симметричное дерево
-    tree4 = build_mirror_symmetric_tree()
-    print_tree_structure("ДЕРЕВО 4 (зеркально-симметричное)", tree4)
-    
-    # 5. Пустое дерево
+    # 4. Пустое дерево
     print(f"\n{'='*60}")
     print("ДЕРЕВО 5 (пустое)")
     print(f"{'='*60}")
