@@ -71,13 +71,7 @@ def is_symmetric(root):
 
 
 def build_symmetric_tree():
-    """Создаёт симметричное дерево:
-            10
-           /  \
-          5    15
-         / \   / \
-        2   7 12 20
-    """
+    # Создаёт симметричное дерево:
     root = TreeNode(10)
     root.left = TreeNode(5)
     root.right = TreeNode(15)
@@ -88,13 +82,7 @@ def build_symmetric_tree():
     return root
 
 def build_asymmetric_tree():
-    """Создаёт НЕсимметричное дерево:
-            1
-           / \
-          2   2
-         / \   \
-        3   4   3  
-    """
+    # Создаёт НЕсимметричное дерево
     root = TreeNode(1)
     root.left = TreeNode(2)
     root.right = TreeNode(2)
@@ -104,13 +92,7 @@ def build_asymmetric_tree():
     return root
 
 def build_mirror_symmetric_tree():
-    """Зеркально-симметричное дерево (значения зеркальны):
-            1
-           / \
-          2   2
-         / \ / \
-        3  4 4  3
-    """
+    # Зеркально-симметричное дерево (значения зеркальны):
     root = TreeNode(1)
     root.left = TreeNode(2)
     root.right = TreeNode(2)
@@ -121,13 +103,7 @@ def build_mirror_symmetric_tree():
     return root
 
 def build_sample_tree():
-    """Обычное дерево для демонстрации обходов:
-            1
-           / \
-          2   3
-         / \   \
-        4   5   6
-    """
+    # Обычное дерево для демонстрации обходов:
     root = TreeNode(1)
     root.left = TreeNode(2)
     root.right = TreeNode(3)
