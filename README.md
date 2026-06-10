@@ -58,11 +58,11 @@
 
 **Результаты работы функций:**
 
-- `preorder`   → `[1, 2, 4, 5, 3, 6]`
-- `inorder`    → `[4, 2, 5, 1, 3, 6]`
-- `postorder`  → `[4, 5, 2, 6, 3, 1]`
-- `level_order` → `[[1], [2, 3], [4, 5, 6]]`
-- `is_symmetric` → `НЕТ`
+- `preorder`   → [1, 2, 4, 5, 3, 6]
+- `inorder`    → [4, 2, 5, 1, 3, 6]
+- `postorder`  → [4, 5, 2, 6, 3, 1]
+- `level_order` → [[1], [2, 3], [4, 5, 6]]
+- `is_symmetric` → НЕТ
 
 ---
 
@@ -78,11 +78,11 @@
 
 **Результаты:**
 
-- `preorder`   → `[1, 2, 3, 4, 2, 4, 3]`
-- `inorder`    → `[3, 2, 4, 1, 4, 2, 3]`
-- `postorder`  → `[3, 4, 2, 4, 3, 2, 1]`
-- `level_order` → `[[1], [2, 2], [3, 4, 4, 3]]`
-- `is_symmetric` → `ДА`
+- `preorder`   → [1, 2, 3, 4, 2, 4, 3]
+- `inorder`    → [3, 2, 4, 1, 4, 2, 3]
+- `postorder`  → [3, 4, 2, 4, 3, 2, 1]
+- `level_order` → [[1], [2, 2], [3, 4, 4, 3]]
+- `is_symmetric` → ДА
 
 ---
 
@@ -101,11 +101,11 @@
 
 **Результаты:**
 
-- `preorder`   → `[1, 2, 3, 4, 2, 3]`
-- `inorder`    → `[3, 2, 4, 1, 2, 3]`
-- `postorder`  → `[3, 4, 2, 3, 2, 1]`
-- `level_order` → `[[1], [2, 2], [3, 4, 3]]`
-- `is_symmetric` → `НЕТ`
+- `preorder`   → [1, 2, 3, 4, 2, 3]
+- `inorder`    → [3, 2, 4, 1, 2, 3]
+- `postorder`  → [3, 4, 2, 3, 2, 1]
+- `level_order` → [[1], [2, 2], [3, 4, 3]]
+- `is_symmetric` → НЕТ
 
 ---
 
@@ -113,11 +113,11 @@
 
 **Результаты:**
 
-- `preorder`   → `[]`
-- `inorder`    → `[]`
-- `postorder`  → `[]`
-- `level_order` → `[]`
-- `is_symmetric` → `ДА` 
+- `preorder`   → []
+- `inorder`    → []
+- `postorder`  → []
+- `level_order` → []
+- `is_symmetric` → ДА
 
 ---
 
